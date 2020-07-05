@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-image: url(../3.jfif);  
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: #DC143C;
+  font-style: 50px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-left: auto;
+}
+
+
+form{
+  margin: 20px auto;
+  width: 320px;
+  color: #fff;
+}
+
+input{
+  text-align: center;
+  background: #fff;
+  color: ##DC143C;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.5)
+}
+
+input[type="text"]{
+  display:block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px;
+  color: #B22222;
+}
+
+input[type="email"]{
+  display:block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px;
+  color: #B22222;
+}
+
+input[type="number"]{
+  display:block;
+  margin-bottom: 25px;
+  width: 100%;
+  border: 2px;
+  color: #B22222;
+}
+
+
+.box{
+  position: absolute;
+}
+
+select{
+  background: #fff;
+  color: #DC143C;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+}
+
+
+input[type="radio"]{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-6px 10px 0 0;
+    vertical-align: middle;
+
+}
+
+input[type="Book Now"]{
+color: #fff;
+text-transform: uppercase;
+text-decoration: none;
+background: #DC143C;
+padding: 20px;
+border-radius: 3px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #transparent;
+  transition: 0.5s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+.pic img{
+  float: left;
+  width: 200px;
+  height: auto;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
